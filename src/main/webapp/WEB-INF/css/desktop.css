@@ -1,0 +1,202 @@
+.ux-start-button .x-btn-arrow {
+	background-image: none;
+}
+
+.ux-start-button .x-btn-arrow-right {
+	padding-left: 10px;
+}
+
+.ux-start-button-icon {
+	background-image: url(../images/taskbar/start-button.png) !important;
+	background-color: transparent;
+}
+
+.ux-start-menu-toolbar .x-btn-inner {
+	text-align: left;
+}
+
+.ux-start-menu-toolbar {
+	padding: 4px !important;
+}
+
+.ux-start-menu-shortcut {
+	background-image: url(../images/taskbar/startmenu-shortcut.png) !important;
+}
+
+.ux-start-menu-wallpaper {
+	background-image: url(../images/taskbar/startmenu-wallpaper.png) !important;
+}
+
+.ux-start-menu-help {
+	background-image: url(../images/taskbar/startmenu-help.png) !important;
+}
+
+.ux-start-menu-logout {
+	background-image: url(../images/taskbar/startmenu-logout.png) !important;
+}
+
+.ux-taskbar .x-toolbar {
+	background: transparent none;
+	border-color: transparent;
+}
+
+.x-ie6 .ux-taskbar .x-toolbar {
+	border-color: #d3e1f1;
+}
+
+.ux-desktop-windowbar .x-btn-inner,.x-nbr .ux-desktop-windowbar .x-btn-icon-text-left button {
+	text-align: left !important;
+}
+
+.ux-taskbar {
+	height: 40px;
+	padding: 0;
+}
+
+.ux-taskbar .x-toolbar {
+	height: 40px;
+}
+
+.x-toolbar .x-toolbar {
+	padding: 0;
+}
+
+.ux-traynotify-message {
+	background-image: url(../images/taskbar/traynotify-message.png) !important;
+}
+
+.ux-traynotify-clock {
+	background-image: url(../images/taskbar/traynotify-clock.png) !important;
+}
+
+.ux-wallpaper {
+	background-color: #3d71b8;
+}
+
+.ux-wallpaper-tiled {
+	background-repeat: repeat;
+}
+
+.ux-desktop-shortcut {
+	z-index: 2;
+	display: inline;
+	cursor: pointer;
+	float: left;
+	margin: 15px;
+	width: 80px;
+	height: 80px;
+	color: white;
+	font-size: 12px;
+	position: relative;
+}
+
+.ux-desktop-shortcut-icon {
+	margin: 5px auto 1px;
+	width: 48px;
+	height: 48px;
+	overflow: hidden;
+	background-position: center center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	position: relative;
+}
+
+.ux-desktop-shortcut-text {
+	color: white;
+	height: 20px;
+	text-align: center;
+	overflow: hidden;
+	background: url(../images/desktop/shortcut-title.png) no-repeat;
+	cursor: pointer;
+}
+
+.ux-desktop-shortcut-text-inner {
+	margin-top: 3px;
+	overflow: hidden;
+	width: 80px;
+	-webkit-user-select: none;
+}
+
+.ux-desktop-shortcut:hover {
+	background: url(../images/desktop/shortcut-field.png) no-repeat center center;
+}
+
+.ux-desktopmenu-close {
+	background-image: url(../images/desktop/menu-close.png) !important;
+}
+
+.ux-desktopmenu-mymac {
+	background-image: url(../images/desktop/menu-mymac.png) !important;
+}
+
+.ux-desktopmenu-wallpaper {
+	background-image: url(../images/desktop/menu-wallpaper.png) !important;
+}
+
+.ux-quickstart-cascade {
+	background-image: url(../images/taskbar/quickstart-cascade.png) !important;
+}
+
+.ux-quickstart-mymac {
+	background-image: url(../images/taskbar/quickstart-mymac.png) !important;
+}
+
+.ux-quickstart-close {
+	background-image: url(../images/taskbar/quickstart-close.png) !important;
+}
+
+.ux-div-table {
+	width: 100%;
+	display: table;
+	border-collapse: separate;
+}
+
+.ux-div-row {
+	height: 25px;
+	display: table-row;
+}
+
+.ux-div-row:hover {
+	cursor: pointer;
+	background-color: #c8dbf2;
+}
+
+.ux-div-row-icon {
+	width: 20px;
+	display: table-cell;
+	background-repeat: no-repeat;
+}
+
+.ux-div-row-text {
+	display: table-cell;
+}
+
+#clock {
+	position: absolute;
+	top: 50px;
+	right: 30px;
+	z-index: 15000;
+	filter: alpha(opacity = 70);
+	-moz-opacity: 0.7;
+	-khtml-opacity: 0.7;
+	opacity: 0.7;
+	width: 150px;
+	height: 150px;
+}
+
+#clock div {
+	position: relative;
+	width: 150px;
+	height: 150px;
+}
+
+#cloud {
+	z-index: 1;
+	position: absolute;
+	top: 50px;
+	left: -500px;
+	overflow: hidden;
+	width: 580px;
+	height: 250px;
+	background: url(../images/desktop/cloud.png) no-repeat;
+}

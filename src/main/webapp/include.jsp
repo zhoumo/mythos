@@ -1,0 +1,17 @@
+<script src="script/desktop/StartMenu.js" type="text/javascript"></script>
+<script src="script/desktop/TrayClock.js" type="text/javascript"></script>
+<script src="script/desktop/TaskBar.js" type="text/javascript"></script>
+<script src="script/desktop/Wallpaper.js" type="text/javascript"></script>
+<script src="script/desktop/Desktop.js" type="text/javascript"></script>
+<script src="script/desktop/Application.js" type="text/javascript"></script>
+<script src="script/desktop/Module.js" type="text/javascript"></script>
+<script src="script/util/CookieUtil.js" type="text/javascript"></script>
+<script src="script/util/MsgBoxUtil.js" type="text/javascript"></script>
+<script src="script/model/ShortcutModel.js" type="text/javascript"></script>
+<script src="script/model/WallpaperModel.js" type="text/javascript"></script>
+<script src="script/module/Notepad.js" type="text/javascript"></script>
+<script src="script/module/VideoConverter.js" type="text/javascript"></script>
+<script src="script/widget/FlashPlayer.js" type="text/javascript"></script>
+<script src="script/widget/PopupWindow.js" type="text/javascript"></script>
+<script src="script/system/WallpaperSettings.js" type="text/javascript"></script>
+<script src="script/system/ShortcutSettings.js" type="text/javascript"></script>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="mine/mythos" xmlns="mine/mythos"
+	elementFormDefault="qualified">
+	<xs:element name="modules">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="module" minOccurs="0" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="module">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="module" minOccurs="0" maxOccurs="unbounded" />
+			</xs:sequence>
+			<xs:attribute name="id" type="xs:string" use="required" />
+			<xs:attribute name="name" type="xs:string" use="required" />
+			<xs:attribute name="iconCls" type="xs:string" use="optional" />
+			<xs:attribute name="component" type="xs:string" use="optional" />
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

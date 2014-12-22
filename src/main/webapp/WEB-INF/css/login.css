@@ -1,0 +1,27 @@
+body {
+	text-align: center;
+	background-color: #2D5C97;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: Î¢ÈíÑÅºÚ, Verdana, Geneva, sans-serif;
+}
+
+td {
+	height: 30px;
+	text-align: right;
+}
+
+.login_panel {
+	width: 800px;
+	height: 450px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 80px;
+	background-image: url(../images/login.png);
+}
+
+.login_control {
+	position: relative;
+	top: 180px;
+	left: 420px;
+}

@@ -1,0 +1,12 @@
+.shortcut-default {
+	background-image: url(../images/module/shortcut-default.png);
+}
+
+.x-ie6 .shortcut-default {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/module/shortcut-default.png', sizingMethod='scale');
+}
+
+.startmenu-default {
+	background-image: url(../images/module/startmenu-default.png) !important;
+}

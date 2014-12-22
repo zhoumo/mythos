@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modules xmlns="mine/mythos">
+	<module id="notepad" name="记事本" iconCls="startmenu-default" component="WebOS.module.Notepad" />
+	<module id="converter" name="视频转码" iconCls="startmenu-default" component="WebOS.module.VideoConverter" />
+</modules>

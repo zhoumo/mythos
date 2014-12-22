@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.springframework.org/schema/beans"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+						http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	<bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
+		<property name="securityManager" ref="securityManager" />
+		<property name="loginUrl" value="/login.jsp" />
+		<property name="successUrl" value="/desktop.jsp" />
+		<property name="unauthorizedUrl" value="/error.jsp" />
+		<property name="filterChainDefinitions">
+			<value>
+			/css/** = anon
+			/images/** = anon
+			/login.do = anon
+			/** = authc
+			</value>
+		</property>
+	</bean>
+	<bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
+		<property name="realm" ref="monitorRealm" />
+		<property name="cacheManager" ref="cacheManager" />
+	</bean>
+	<bean id="monitorRealm" class="mine.mythos.shiro.MonitorRealm" />
+	<bean id="cacheManager" class="org.apache.shiro.cache.MemoryConstrainedCacheManager" />
+</beans>
